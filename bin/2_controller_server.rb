@@ -2,6 +2,7 @@ require 'rack'
 require_relative '../lib/controller_base'
 
 class MyController < ControllerBase
+
   def go
     if @req.path == "/cats"
       render_content("hello cats!", "text/html")
