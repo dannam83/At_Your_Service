@@ -1,7 +1,7 @@
-# You Got Served
+# At Your Service
 
 ## Introduction
-D-railed is a model framework that mimics the core functions of Rails. By going through this demo, you will be exercise basic Rails operations using code written by yours truly.
+At Your Service is a model framework that mimics basic server and router functionality. This demo will walk you through the steps that data goes through when it's sent to the server as a request, and then sent back to the user as a response.
 
 ## Setup
 1. Download the folder
@@ -32,4 +32,4 @@ To see my cats, go to localhost3000/cats. This route gets directed to my cats co
 
 Go ahead and checkout my cats!
 
-And that wraps up this server demo. Hope you enjoyed getting served! 
+And that wraps it up. Thanks for checking out this demo! 
