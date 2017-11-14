@@ -15,7 +15,7 @@ $statuses = [
   { id: 3, cat_id: 1, text: "Curie is cool!" },
   { id: 4, cat_id: 1, text: "Curie will curl into any box!" },
   { id: 5, cat_id: 3, text: "Boris thinks he's king!" },
-  { id: 6, cat_id: 3, text: "Boris is bossy." }
+  { id: 6, cat_id: 3, text: "Boris is bossy!" }
 ]
 
 class StatusesController < ControllerBase

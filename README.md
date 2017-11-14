@@ -12,14 +12,14 @@ Now let's get started!
 
 ## Demos
 ### The Server: Notepad Fun!
-run server: bundle exec ruby bin/1_basic_server.rb
+run server: bundle exec ruby bin/notepad_fun.rb
 
 Here we have a basic server. Stripped of all its complexities, the role of the server is to simply receive requests, and send responses. This basic server is setup to take the provided url and return it back as text on the console.
 
 Start by navigating to localhost:3000/ and open up the console. What do you see? Now try navigating to localhost:3000/this/is/fun!. What do you see now? How did the response in the console change? Go ahead and try entering other requests in the url. Just make sure all your changes happen after that first slash. As you experiment, you may find some values, such as spaces, that the url is not ready to handle. The url will send its own ASCII substitutions when that occurs.
 
 ### Controllers: Unstoppable Dug 🐶
-run server: bundle exec ruby bin/2_controller_server.rb
+run server: bundle exec ruby bin/unstoppable_dug.rb
 
 In the first exercise, the server received a request from the url, and then it sent back information as text on the console. However, the server isn't usually the one to process the information that it receives. The server's main job is to receive the information and then send it out to the appropriate controller to process the information.
 
@@ -28,7 +28,7 @@ When a controller receives a request, it can either pull together information to
 Now let's meet Dug! Go to localhost:3000/Dug. Did you find him? You'll find that Dug is extremely persistent and super clingy. In fact, in this server, you can't escape him! The controller has been setup to redirect everything to Dug. No matter what url you try to go to, if you're going somewhere at localhost:3000, you're always going to find Dug. Try seeing if you can escape him!
 
 ### Views: My Cats 🐱🐱🐱
-run server: bundle exec ruby bin/3_router_server.rb
+run server: bundle exec ruby bin/my_cats.rb
 
 Dug was fun, but Dug is not good for websites. Controllers redirect when they need to, but the first response is to return information based on the request from the url and any other data submitted. For this exercise I've designed two simple url routes that show different information about my cats. Based on the url route that the controller gets, the controller will render information accordingly.
 
