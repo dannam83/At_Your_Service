@@ -1,7 +1,7 @@
 # At Your Service
 
 ## Introduction
-At Your Service is a model framework that mimics basic server and router functionality. This exercise will walk you through the steps that data goes through when it is sent to the server as a request, and then sent back to the user as a response.
+At Your Service is a model framework that mimics basic server and router functionality. Built using the Rails server as a model, this exercise will walk you through the steps that data goes through when it is sent to the server as a request, and then sent back to the user as a response.
 
 ## Setup
 1. Download the folder
